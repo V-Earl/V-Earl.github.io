@@ -1,0 +1,132 @@
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    padding: 25px 40px;
+    margin-left: 240px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.page-name {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragraphs {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+body {
+    background-image: url("../images/intersection.png");
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-area {
+    width: 960px; margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid #dddddd; 
+    margin-bottom: 80px; 
+    padding-top: 10px;  
+}
+
+.left {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    width: 100%;
+}
+
+#nav {
+    float: right;
+    padding-right: 225px;
+    margin-top: 40px;
+}
+
+a {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+}
+
+.horizontal-line {
+    margin-bottom: 25px;
+    background-color: #dddddd;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: #cccccc;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.footer-style {
+    margin-top: auto;
+    margin-bottom: 0;
+    border-top: 8px solid #4aaaa5;
+}
+
+#footer-text {
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    font-size: 10px;
+    margin: 0;
+    background-color: #666666;
+    padding-bottom: 5px;
+}
+
+#contact-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: smaller;
+}
+
+.text-box {width: 960px;}
+
+.submit-button {
+    padding: 5px 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+}
+
+.portfolio-area {
+    width: 960px; margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    height: 475px;
+    padding: 20px;
+    border: 2px solid #dddddd; 
+    margin-bottom: 30px; 
+    padding-top: 10px;  
+}
+
+#container {width: 50%;}
+
+.list {float: left;}
+
+ul {
+    list-style-type: none;
+    line-height: 4;
+}
+
