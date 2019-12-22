@@ -7,68 +7,94 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>V.E- Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
 <body>
 
-    <header>
-        <nav id="nav">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div class="container">
 
-        <h1 class="name">Valerie Earl</h1>
-    </header>
+        <div class="row">
 
-
-
-    <section>
-
-        <div class="content-area">
-
-            <h2 class="page-name">Contact</h2>
-
-            <hr class="horizontal-line" />
-
-            <div class="about-me">
-                <p class="paragraphs">
-
-                    <form action="/action_page.doc">
-             
-
-                            <ul id="contact-list">
-                            
-                        
-                                <li><label for="name">Name</label></li>
-                                <li><input type="text" class="text-box" name="name" placeholder="John Smith"></li>
-                                <li><label for="email">Email</label></li>
-                                <li><input type="text" class="text-box" name="email" placeholder="example@gmail.com"></li>
-                                
-                                <li><label for="subject">Message</label></li>
-                                <li><textarea class="text-box" name="subject" placeholder="" style="height:150px; width: 960px;"></textarea></li>
-                                <li><input type="submit" class="submit-button" value="Submit"></li>
-                                
-                            </ul>   
-
-                    </form>
-
-                   
-                </p>
-            </div>
-
+            <nav class="navbar navbar-expand-lg navbar-light col">
+                <h1><a class="navbar-brand name-text" href="#">Valerie Earl</a></h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
 
         </div>
 
-    </section>
+        <div class="row page-name">
+          <div class="col-sm-12" id="page-name-style">Contact</div>
+
+        </div>
+
+        <div class="row" id="content-area">
+          
+          <div class="col">
+
+            <!-- Default form contact -->
+<form class="text-center border border-light p-5" action="#!">
 
 
-    <footer class="footer-style">
-        <p id="footer-text">Copyright &copy;</div>
-        </p>
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    </div>
+
+
+    <!-- Submit button -->
+    <button class="btn btn-info btn-block" type="submit">Submit</button>
+
+</form>
+
+
+
+          </div>
+
+          
+
+        </div>
+
+    
+
+        <footer class="page-footer font-small blue fixed-bottom">
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">Copyright ©
+       
+      </div>
+      <!-- Copyright -->
+    
     </footer>
+
+    </div>  
 
 </body>
 

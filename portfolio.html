@@ -7,75 +7,129 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>V.E- Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
 <body>
 
-    <header>
-        <nav id="nav">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div class="container">
 
-        <h1 class="name">Valerie Earl</h1>
-    </header>
+        <div class="row">
 
-    
-
-    <section>
-
-        <div class="portfolio-area">
-
-            <h2 class="page-name">Portfolio</h2>
-
-            <hr class="horizontal-line"/>
-
-            <div class="about-me">
-            <p class="paragraphs">
-
-                    <div id="container">
-                        <div class="list">
-
-                            <ul> <!-- This is our Unordered List -->
-                        
-                                <li><img src="./assets/images/Hangman.jpg" alt="Hangman" width="150" height="100"></li> <!--This is our image tag inside the List Item-->
-
-                                <li><img src="./assets/images/TriviaGame.jpg" alt="Hangman" width="150" height="100"></li>
-
-                                <li><img src="./assets/images/RockPaper.jpg" alt="Hangman" width="150" height="100"></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="list">
-                                <ul> 
-                                    
-                                    <li><img src="./assets/images/RPGgame.jpg" alt="Hangman" width="150" height="100"></li> <!--This is our image tag inside the List Item-->
-            
-                                    <li><img src="./assets/images/RutgersWidget.jpg" alt="Hangman" width="150" height="100"></li>
-            
-                            
-                                </ul>
-                            </div>
-                   
-                    </div>
-        
-               
-               
-                </p>
-            </div>
-
+            <nav class="navbar navbar-expand-lg navbar-light col">
+                <h1><a class="navbar-brand name-text" href="#">Valerie Earl</a></h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
 
         </div>
 
-    </section>
-  
+        <div class="row page-name">
+          <div class="col-sm-12" id="page-name-style">Portfolio</div>
 
-<footer class="footer-style">
-    <p id="footer-text">Copyright &copy;</div></p>
-</footer>
+        </div>
+
+        <div class="row top" id="content-area">
+            
+          
+          <div class="col-sm-4">
+
+            <div class="card bg-dark text-white">
+                <img src="./assets/images/Hangman.jpg" class="card-img img-resposive" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title carousel-caption">Hangman</h5>
+                  
+                </div>
+              </div>
+
+          </div>
+
+          <div class="col-sm-4">
+
+            <div class="card bg-dark text-white">
+                <img src="./assets/images/RPGgame.jpg" class="card-img img-resposive" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title carousel-caption">RPG Game</h5>
+                  
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+        <div class="row" id="content-area">
+          
+            <div class="col-sm-4">
+  
+              <div class="card bg-dark text-white">
+                  <img src="./assets/images/TriviaGame.jpg" class="card-img img-resposive" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title carousel-caption">Trivia Game</h5>
+                    
+                  </div>
+                </div>
+  
+            </div>
+
+            <div class="col-sm-4">
+  
+                <div class="card bg-dark text-white">
+                    <img src="./assets/images/RutgersWidget.jpg" class="card-img img-resposive" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title carousel-caption">Rutgers Info Widget</h5>
+                      
+                    </div>
+                  </div>
+    
+              </div>
+        </div>
+        <div class="row" id="content-area">
+          
+            <div class="col-sm-4">
+  
+              <div class="card bg-dark text-white">
+                  <img src="./assets/images/RockPaper.jpg" class="card-img img-resposive" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title carousel-caption">Rock Paper Scissors</h5>
+                    
+                  </div>
+                </div>
+  
+            </div>
+        </div>
+
+    
+
+        <footer class="page-footer font-small blue fixed-bottom">
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">Copyright ©
+       
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+
+    </div>  
 
 </body>
 

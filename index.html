@@ -7,54 +7,73 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>V.E- Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
 <body>
 
-    <header>
-        <nav id="nav">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div class="container">
 
-        <h1 class="name">Valerie Earl</h1>
-    </header>
+        <div class="row">
 
-    
-
-    <section>
-
-        <div class="content-area">
-
-            <h2 class="page-name">About Me</h2>
-
-            <hr class="horizontal-line"/>
-
-            <div class="about-me">
-            <p class="paragraphs">
-
-                <img src="assets\images/black.jpg" alt="Me" class="left" width="200" height="200">Hello and Welcome! My name is Valerie Earl and I am currently an AML/ Compliance Analyst, soon to be Full Stack Web Developer. Although it has been challenging learning something completely different, I am enjoying the process of really stretching and pushing myself. So far, it has been an interesting ride but I am here to enjoy the journey and learn as much as I can.
-
-<br>
-               
-A few things that I enjoy in life are traveling and learning about other cultures, trying new foods, spending time with the people I love and hearing my daughter laugh. These days, I am just taking life as it comes  and living by the motto that if it is to be, it will be.
-
-
-                </p>
-            </div>
-
+            <nav class="navbar navbar-expand-lg navbar-light col">
+                <h1><a class="navbar-brand name-text" href="#">Valerie Earl</a></h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
 
         </div>
 
-    </section>
-  
+        <div class="row page-name">
+          <div class="col-sm-12" id="page-name-style">About Me</div>
 
-<footer class="footer-style">
-    <p id="footer-text">Copyright &copy;</div></p>
-</footer>
+        </div>
+
+        <div class="row top" id="content-area">
+          
+          <div class="col"><img src="./assets/images/black.jpg" alt="Me" id="image">Hello and Welcome! My name is Valerie Earl and I am currently an AML/ Compliance Analyst, soon to be Full Stack Web Developer. Although it has been challenging learning something completely different, I am enjoying the process of really stretching and pushing myself. So far, it has been an interesting ride but I am here to enjoy the journey and learn as much as I can.
+
+            <br>
+
+            A few things that I enjoy in life are traveling and learning about other cultures, trying new foods, spending time with the people I love and hearing my daughter laugh. These days, I am just taking life as it comes  and living by the motto that if it is to be, it will be.
+          </div>
+
+          
+
+        </div>
+
+    
+
+        <footer class="page-footer font-small blue fixed-bottom">
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">Copyright ©
+       
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+
+    </div>  
 
 </body>
 
