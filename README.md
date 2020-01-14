@@ -18,4 +18,4 @@ This project was created using:
 *JavaScript
 
 
-![image](https://user-images.githubusercontent.com/57978129/72331211-6ca84380-367d-11ea-8265-8ddd5b96d6a7.png)
+![image](https://user-images.githubusercontent.com/57978129/72331378-ba24b080-367d-11ea-91ac-a6f5623cd259.png)
