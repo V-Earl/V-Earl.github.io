@@ -1,12 +1,10 @@
 # V-Earl.github.io
 
+## Project Name: Work Day Scheduler
 
+## General Info:
 
-## Project Name: Password Generator
-
-## General Info
-
-This project is for the purpose of creating a password generator that will generate a random password. The password must include between 8-128 characters, and a combination of special characters, numbers, as well as upper and lowercase letters.
+This assignment is meant to allow a busy employee to save important events to a daily planner.
 
 
 ## Technologies
@@ -15,4 +13,6 @@ This project was created using:
 
 *HTML
 *CSS
-*JavaScript
+*jQuery
+*Javascript
+*Moment.js
